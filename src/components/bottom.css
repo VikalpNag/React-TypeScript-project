@@ -1,0 +1,8 @@
+.bottomContainer{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    height: 25vh;
+    margin: 8px;
+    border-radius: 15px;
+}

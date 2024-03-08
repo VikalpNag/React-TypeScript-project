@@ -12,7 +12,7 @@ const Top = () => {
         <div className="input-search">
             <input type="text" className="input" placeholder="Enter City Name"/>
             <div className="btn">
-                <IconSearch/>
+                Search
             </div>
         </div>
 

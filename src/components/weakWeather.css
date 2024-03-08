@@ -1,0 +1,22 @@
+.mainContainer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+#temp{
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+p{
+    font-size: 10px;
+    font-weight: 700;
+    margin: 2px 0px 3px 0px;
+}
