@@ -1,0 +1,46 @@
+.container {
+  margin: 0;
+  padding: 0;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 30px;
+}
+
+.temp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.temp p {
+  font-size: 200px;
+  font-weight: 500;
+}
+
+.temp img {
+  height: 200px;
+  width: 200px;
+}
+
+.tempImg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tempImg img {
+  height: 350px;
+  width: 350px;
+}
+
+.element{
+    display: flex;
+    align-items: center;
+}
+
+.element .icon img{
+    height: 50px;
+    width: 50px;
+}

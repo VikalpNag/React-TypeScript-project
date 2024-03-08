@@ -1,4 +1,5 @@
 import React from "react";
+import '../components/mid.css'
 import ClearD from '../components/Assets/01d.png';
 import ClearN from '../components/Assets/01n.png';
 import FewCloudD from '../components/Assets/02d.png';
@@ -18,13 +19,29 @@ import Wind from '../components/Assets/wind.png';
 import TempScale from '../components/Assets/tempScale.png';
 
 const Mid = () => {
-    return <div>
+    return <div className="container">
         <div className="temp">
             <p>15</p>
             <img src={Celcius} alt="" />
         </div>
         <div className="tempImg">
             <img src={ThunderstormD} alt="" />
+
+            <div className="temp-details">
+                <div className="element">
+                    <div className="icon"><img src={TempScale} alt="" /></div>
+                    <div className="icon-detail">Feels like : 31 deg</div>
+                </div>
+                <div className="element">
+                    <div className="icon"><img src={Humidity} alt="" /></div>
+                    <div className="icon-detail">Humidity : 15%</div>
+                </div>
+                <div className="element">
+                    <div className="icon"><img src={Wind} alt="" /></div>
+                    <div className="icon-detail">Wind : 14km/h</div>
+                </div>
+            </div>
+            
         </div>
     </div>
 }
