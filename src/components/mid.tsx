@@ -19,18 +19,22 @@ import Wind from '../components/Assets/wind.png';
 import TempScale from '../components/Assets/tempScale.png';
 
 const Mid = () => {
-    return <div className="container">
+    return <div className="mid-container">
         <div className="temp">
             <p>15</p>
-            <img src={Celcius} alt="" />
+            <div className="unit">
+                <p>°C</p>
+                <div className="new">Partly Cloud</div>
+            </div>
         </div>
+
         <div className="tempImg">
             <img src={ThunderstormD} alt="" />
 
             <div className="temp-details">
                 <div className="element">
                     <div className="icon"><img src={TempScale} alt="" /></div>
-                    <div className="icon-detail">Feels like : 31 deg</div>
+                    <div className="icon-detail">Feels like :  31°C</div>
                 </div>
                 <div className="element">
                     <div className="icon"><img src={Humidity} alt="" /></div>

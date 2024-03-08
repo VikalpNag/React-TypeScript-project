@@ -1,4 +1,4 @@
-.container {
+.mid-container {
   margin: 0;
   padding: 0;
   height: 30vh;
@@ -10,37 +10,50 @@
 
 .temp {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  align-content: center;
+  gap: 20px;
 }
 
 .temp p {
-  font-size: 200px;
-  font-weight: 500;
+  font-size: 100px;
+  font-weight: 400;
 }
 
-.temp img {
-  height: 200px;
-  width: 200px;
+.unit {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.unit p{
+  font-size: 30px;
 }
 
 .tempImg {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 50px;
 }
 
 .tempImg img {
-  height: 350px;
-  width: 350px;
+  height: 160px;
+  width: 160px;
 }
 
-.element{
-    display: flex;
-    align-items: center;
+.element {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.element .icon img{
-    height: 50px;
-    width: 50px;
+.element .icon img {
+  height: 30px;
+  width: 30px;
+}
+.element .icon-detail{
+  font-weight: 600;
 }

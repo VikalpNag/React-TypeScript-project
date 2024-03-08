@@ -11,16 +11,16 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(218, 242, 251);
+    background-color: rgb(57, 57, 57);
     
 }
-.appBody{
-    height: 90vh;
-    width: 75vw;
+.appBody {
+    height: 85vh;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(66, 63, 63);
+    background-image: url('D:\Development Projects\React-TypeScript\my-app\src\components\Assets\night.jpg'); /* Using a relative path */
+    background-position: center;
     border-radius: 30px;
-    
 }

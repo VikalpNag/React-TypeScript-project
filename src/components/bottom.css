@@ -1,8 +1,14 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 .bottomContainer{
-    /* background-color: red; */
+    background-color: rgba(0, 0, 0, 0.277);
     display: flex;
     justify-content: space-around;
-    height: 25vh;
-    margin: 8px;
+    height: 20vh;
+    width: 50vw;
     border-radius: 15px;
 }
