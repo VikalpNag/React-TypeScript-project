@@ -4,8 +4,11 @@ import Top from './components/top';
 import Mid from './components/mid';
 import Bottom from './components/bottom';
 
-
 function App() {
+
+  
+  
+
   return (
     <div className="App">
       <div className="appBody">
