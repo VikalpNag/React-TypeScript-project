@@ -1,48 +1,36 @@
 import React from "react";
 import '../components/mid.css'
-import ClearD from '../components/Assets/01d.png';
-import ClearN from '../components/Assets/01n.png';
-import FewCloudD from '../components/Assets/02d.png';
-import FewCloudN from '../components/Assets/02n.png';
-import ScatterBroken from '../components/Assets/03d-n.png';
-import ShowerRain from '../components/Assets/9d-n.png';
-import RainD from '../components/Assets/10d.png'
-import RainN from '../components/Assets/10n.png';
-import ThunderstormD from '../components/Assets/11d.png';
-import ThunderstormN from '../components/Assets/11n.png';
-import Snow from '../components/Assets/13d-n.png';
-import MistD from '../components/Assets/50d.png';
-import MistN from '../components/Assets/50n.png';
 import Humidity from '../components/Assets/humidity.png';
-import Celcius from '../components/Assets/celcius.png';
 import Wind from '../components/Assets/wind.png';
 import TempScale from '../components/Assets/tempScale.png';
 
-const Mid = () => {
+const Mid = (props:any) => {
+
+
     return <div className="mid-container">
         <div className="temp">
-            <p>15</p>
+            <p>{props.temp ? props.temp : "15"}</p>
             <div className="unit">
                 <p>°C</p>
-                <div className="new">Partly Cloud</div>
+                <div className="new">{props.weather}</div>
             </div>
         </div>
 
         <div className="tempImg">
-            <img src={ThunderstormD} alt="" />
+            <img src={props.image} alt="" />
 
             <div className="temp-details">
                 <div className="element">
                     <div className="icon"><img src={TempScale} alt="" /></div>
-                    <div className="icon-detail">Feels like :  31°C</div>
+                    <div className="icon-detail">Feels like :{props.feel?props.feel:"20"}°C</div>
                 </div>
                 <div className="element">
                     <div className="icon"><img src={Humidity} alt="" /></div>
-                    <div className="icon-detail">Humidity : 15%</div>
+                    <div className="icon-detail">Humidity : {props.humidity?props.humidity : "14"}%</div>
                 </div>
                 <div className="element">
                     <div className="icon"><img src={Wind} alt="" /></div>
-                    <div className="icon-detail">Wind : 14km/h</div>
+                    <div className="icon-detail">Wind :{props.wind? props.wind:"3"}km/h</div>
                 </div>
             </div>
             
