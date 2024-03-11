@@ -24,12 +24,16 @@
 .unit {
   display: flex;
   flex-direction: column;
+  align-items: start;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
-.unit p{
-  font-size: 30px;
+.unit p {
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
 }
 
 .tempImg {
@@ -54,6 +58,6 @@
   height: 30px;
   width: 30px;
 }
-.element .icon-detail{
+.element .icon-detail {
   font-weight: 600;
 }

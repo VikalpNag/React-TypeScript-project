@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Top from './components/top';
 import Mid from './components/mid';
-import Bottom from './components/bottom';
+// import Bottom from './components/bottom';
 import ClearD from './components/Assets/01d.png';
 import ClearN from './components/Assets/01n.png';
 import FewCloudD from './components/Assets/02d.png';
@@ -100,8 +100,6 @@ function App() {
           weather={weather}
           image={icon}
         />
-
-        <Bottom />
       </div>
     </div>
   );

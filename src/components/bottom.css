@@ -6,9 +6,9 @@
 }
 .bottomContainer{
     background-color: rgba(0, 0, 0, 0.277);
-    display: flex;
-    justify-content: space-around;
     height: 20vh;
     width: 50vw;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
 }
